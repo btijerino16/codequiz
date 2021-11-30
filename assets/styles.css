@@ -1,5 +1,8 @@
 body {
     background-color: aliceblue;
+    
+    justify-content: center;
+    align-items: center;
 }
 
 h1 { 
@@ -18,21 +21,33 @@ h1 {
     background-color: black;
 }
 
-.flex-column {
+.start-btn, .next-question {
+    background-color: blueviolet;
+    font-size: 55px;
+    padding: auto;
+    margin-top: auto;
+    text-align: center;
+    float: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.quizbox {
     display: flex;
 
 }
 
-.flex-center {
+.quiz-box-questions {
     justify-content: center;
     align-items: center
 }
 
 .btn, .scorebtn {
-    font-size: 100%;
+    text-align: center;
+    font-size: 200%;
     padding: 0%;
     width: 75%;
     text-align: center;
-    color: aliceblue;
+    margin-bottom: auto;
+
 }
 
