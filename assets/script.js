@@ -1,24 +1,37 @@
 var startButton = document.getElementById('startgame')
+var quizContainer = document.getElementById('quiz-container')
+var quizBoxQuestions = document.getElementById('quiz-box-questions')
+var answerChoices = document.getElementById('answerbtns')
 
-function startGame () {
-    console.log("it works")
-    
-
-
-}
-
-function nextQuestion () {
-
-
+function startQuiz() {
+    console.log("sayhello");
 
 
 }
 
-function answerChoice () {
+function clickNext() {
 
 
 
 }
 
 
-startButton.addEventListener('click' , startGame)
+
+
+
+
+function nextQuestion() {
+
+
+
+
+}
+
+function answerChoice() {
+
+
+
+}
+
+
+startButton.addEventListener('click', startQuiz)
