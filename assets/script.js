@@ -6,6 +6,7 @@ var questions = document.getElementById('questions')
 
 
 
+
 var questions = [
     {
         one: "How can you see if a function is working?",
@@ -35,8 +36,17 @@ var questions = [
 function startQuiz() {
     // when user clicks start 1. the start button will hide 2. the timer starts 3. first question populate
 
+    startButton.classList.add('hide')
+    setInterval(questions)
+
+
 }
 
+function displayQuestions ()
+{
+
+
+}
 
 function clickNext() {
 
@@ -49,7 +59,7 @@ function clickNext() {
 
 
 function timeInterval() {
-    // when this function starts, it will start a timer on the quiz
+    // when this function starts, it will start a timer on the quiz, deduct if answer wrong, add time if answer right
 
 
 
